@@ -1,2 +1,2 @@
-# dict-with-audio
+# dictionary
 Project to learn tkinter
