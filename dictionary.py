@@ -127,12 +127,12 @@ def show_word_of_the_day():
     root_y = root.winfo_y()
     root_width = root.winfo_width()
     root_height = root.winfo_height()
-    position_x = root_x + (root_width // 2) - (250 // 2)
-    position_y = root_y + (root_height // 2) - (200 // 2)
+    position_x = root_x + (root_width // 2) - (400 // 2)
+    position_y = root_y + (root_height // 2) - (300 // 2)
 
     popup = tk.Toplevel(root)
     popup.title("Word of the Day")
-    popup.geometry(f"{250}x{200}+{position_x}+{position_y}")
+    popup.geometry(f"{400}x{300}+{position_x}+{position_y}")
     popup.transient(root)   # keeps popup on top
 
     tk.Label(popup, text="Word of the Day", font=("bold")).pack(pady=10)
